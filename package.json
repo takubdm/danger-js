@@ -120,5 +120,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "danger": "^7.0.15"
   }
 }
