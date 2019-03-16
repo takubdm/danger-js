@@ -60,7 +60,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --watchAll"
+    "test": "node scripts/test.js --watchAll",
+    "docs": "typedoc --out docs src --theme markdown"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -122,6 +123,8 @@
     ]
   },
   "devDependencies": {
-    "danger": "^7.0.15"
+    "danger": "^7.0.15",
+    "typedoc": "^0.14.2",
+    "typedoc-plugin-markdown": "^1.1.27"
   }
 }
