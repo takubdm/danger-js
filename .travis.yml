@@ -10,8 +10,15 @@ after_success:
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - git config --global user.email "t.hara.mobile@gmail.com"
 - git config --global user.name "takubdm"
+- mkdir _docs && cd _docs
+- git init
+- git remote add origin git@github.com:takubdm/danger-js.git
+- git pull origin gh-pages
+- rm -rf ./*
+- cd ../
 - yarn docs
-- sed -re s/^\\/?docs\\/?$// .gitignore
-- git add docs/
+- mv docs/* _docs
+- cd _docs
+- git add .
 - git commit -m "by Travis CI (JOB $TRAVIS_JOB_NUMBER)"
-- git push origin gh-pages
+- git push origin HEAD:gh-pages
