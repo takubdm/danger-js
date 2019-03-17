@@ -19,6 +19,7 @@ after_success:
 - yarn docs
 - mv docs/* _docs
 - cd _docs
+- touch .nojekyll
 - git add .
 - git commit -m "by Travis CI (JOB $TRAVIS_JOB_NUMBER)"
 - git push origin HEAD:gh-pages
