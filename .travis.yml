@@ -23,5 +23,5 @@ after_success:
 - cd _docs
 - touch .nojekyll
 - git add .
-- git commit -m "by Travis CI (JOB $TRAVIS_JOB_NUMBER)"
+- git commit -m "$TRAVIS_COMMIT_MESSAGE"
 - git push origin HEAD:gh-pages
