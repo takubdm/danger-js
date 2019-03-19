@@ -11,6 +11,8 @@ after_success:
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - git config --global user.email "t.hara.mobile@gmail.com"
 - git config --global user.name "takubdm"
+- ssh -T git@github.com
+- echo openssl aes-256-cbc -K $encrypted_910bd7ff3bb6_key -iv $encrypted_910bd7ff3bb6_iv -in ./id_rsa.enc -out ~/.ssh/id_rsa -d
 # Generate docs by TypeDoc
 - git checkout -b gh-pages
 - git subtree add --prefix docs origin gh-pages
