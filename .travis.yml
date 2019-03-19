@@ -16,6 +16,7 @@ after_success:
 # Generate docs by TypeDoc
 - git checkout -b gh-pages
 - git subtree add --prefix docs origin gh-pages
+- rm -rf docs
 - yarn docs
 - touch docs/.nojekyll
 - git add docs --force
