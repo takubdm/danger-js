@@ -11,6 +11,7 @@ after_success:
 - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - git config --global user.email "t.hara.mobile@gmail.com"
 - git config --global user.name "takubdm"
+- git config --global url."git@github.com:".insteadOf "https://github.com/"
 - ssh -T git@github.com
 # Generate docs by TypeDoc
 - git branch -D gh-pages
@@ -21,5 +22,4 @@ after_success:
 - touch docs/.nojekyll
 - git add docs --force
 - git commit -m "$TRAVIS_COMMIT_MESSAGE"
-- git push -u origin pages
 - git subtree push --prefix docs origin gh-pages
