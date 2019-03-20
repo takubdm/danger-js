@@ -60,7 +60,7 @@
 
 *Inherited from Component.__constructor*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:404*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:404*
 
 **Parameters:**
 
@@ -72,7 +72,7 @@
 
 *Inherited from Component.__constructor*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:406*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:406*
 
 *__deprecated__*: 
 
@@ -99,7 +99,7 @@ ___
 
 *Inherited from Component.context*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:404*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:404*
 
 If using the new style context, re-declare this in your class to be the `React.ContextType` of your `static contextType`.
 
@@ -121,7 +121,7 @@ ___
 
 *Inherited from Component.props*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:429*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:429*
 
 ___
 <a id="refs"></a>
@@ -132,7 +132,7 @@ ___
 
 *Inherited from Component.refs*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:435*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:435*
 
 *__deprecated__*: [https://reactjs.org/docs/refs-and-the-dom.html#legacy-api-string-refs](https://reactjs.org/docs/refs-and-the-dom.html#legacy-api-string-refs)
 
@@ -149,7 +149,7 @@ ___
 
 *Inherited from Component.state*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:430*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:430*
 
 ___
 <a id="contexttype"></a>
@@ -160,7 +160,7 @@ ___
 
 *Inherited from Component.contextType*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:389*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:389*
 
 If set, `this.context` will be set at runtime to the current value of the given Context.
 
@@ -193,7 +193,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.UNSAFE_componentWillMount*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:617*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:617*
 
 Called immediately before mounting occurs, and before `Component#render`. Avoid introducing any side-effects or subscriptions in this method.
 
@@ -218,7 +218,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.UNSAFE_componentWillReceiveProps*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:649*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:649*
 
 Called when the component may be receiving new props. React may call this even if props have not changed, so be sure to compare new and existing props if you only want to handle changes.
 
@@ -252,7 +252,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.UNSAFE_componentWillUpdate*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:677*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:677*
 
 Called immediately before rendering when new props or state is received. Not called for the initial render.
 
@@ -287,7 +287,7 @@ ___
 
 *Inherited from ComponentLifecycle.componentDidCatch*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:546*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:546*
 
 Catches exceptions generated in descendant components. Unhandled exceptions will cause the entire component tree to unmount.
 
@@ -309,7 +309,7 @@ ___
 
 *Inherited from ComponentLifecycle.componentDidMount*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:525*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:525*
 
 Called immediately after a component is mounted. Setting state here will trigger re-rendering.
 
@@ -324,7 +324,7 @@ ___
 
 *Inherited from NewLifecycle.componentDidUpdate*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:588*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:588*
 
 Called immediately after updating occurs. Not called for the initial render.
 
@@ -349,7 +349,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.componentWillMount*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:603*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:603*
 
 Called immediately before mounting occurs, and before `Component#render`. Avoid introducing any side-effects or subscriptions in this method.
 
@@ -372,7 +372,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.componentWillReceiveProps*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:632*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:632*
 
 Called when the component may be receiving new props. React may call this even if props have not changed, so be sure to compare new and existing props if you only want to handle changes.
 
@@ -404,7 +404,7 @@ ___
 
 *Inherited from ComponentLifecycle.componentWillUnmount*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:541*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:541*
 
 Called immediately before a component is destroyed. Perform any necessary cleanup in this method, such as cancelled network requests, or cleaning up any DOM elements created in `componentDidMount`.
 
@@ -419,7 +419,7 @@ ___
 
 *Inherited from DeprecatedLifecycle.componentWillUpdate*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:662*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:662*
 
 Called immediately before rendering when new props or state is received. Not called for the initial render.
 
@@ -452,7 +452,7 @@ ___
 
 *Inherited from Component.forceUpdate*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:421*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:421*
 
 **Parameters:**
 
@@ -471,7 +471,7 @@ ___
 
 *Inherited from NewLifecycle.getSnapshotBeforeUpdate*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:582*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:582*
 
 Runs before React applies the result of `render` to the document, and returns an object to be given to componentDidUpdate. Useful for saving things such as scroll position before `render` causes changes to it.
 
@@ -495,7 +495,7 @@ ___
 
 *Overrides Component.render*
 
-*Defined in App.tsx:12*
+*Defined in [App.tsx:12](https://github.com/takubdm/danger-js/blob/a4e6f2c/src/App.tsx#L12)*
 
 *__memberof__*: App
 
@@ -510,7 +510,7 @@ ___
 
 *Inherited from Component.setState*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:416*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:416*
 
 **Type parameters:**
 
@@ -533,7 +533,7 @@ ___
 
 *Inherited from ComponentLifecycle.shouldComponentUpdate*
 
-*Defined in /Users/thara/Desktop/danger-js/node_modules/@types/react/index.d.ts:536*
+*Defined in /home/travis/build/takubdm/danger-js/node_modules/@types/react/index.d.ts:536*
 
 Called to determine whether the change in props and state should trigger a re-render.
 
