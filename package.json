@@ -61,7 +61,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "echo node scripts/test.js",
-    "docs": "typedoc --out docs src"
+    "docs": "typedoc --out docs src",
+    "echo": "echo $TEST_ENV_OK $TEST_ENV_NG"
   },
   "eslintConfig": {
     "extends": "react-app"
